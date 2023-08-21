@@ -16,7 +16,7 @@ app.layout = html.Div(
     html.H1("Data Visualization"),
     html.H2("Dashboard showing multiple graphs"),
     html.Div([dcc.Graph(figure = fig),
-    dcc.Graph(figure = fig2)], style={'display': 'flex', 'flex-direction': 'row'}]
+    dcc.Graph(figure = fig2)], style={'display': 'flex', 'flex-direction': 'row'})]
 )
 
 if __name__ == '__main__':
