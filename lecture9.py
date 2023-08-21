@@ -4,6 +4,8 @@ import plotly.express as px
 app = Dash(__name__)
 server = app.server
 
+app.title = "MCM7003 Data Visualization Demo" 
+
 image_path = 'https://www.mmu.edu.my/wp-content/themes/mmu2018/assets/images/logo-mmu.png'
 
 fig = px.line(x=["a","b","c","d","e"], y=[1,3,2,2,3], title="Sample figure")	
